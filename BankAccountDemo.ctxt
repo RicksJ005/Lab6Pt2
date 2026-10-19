@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sun Oct 18 21:42:43 PDT 2026
+comment0.target=BankAccountDemo
+comment0.text=\r\n A savings bank account that uses classes in order to handle the deposits, withdrawls, calculations, and options of whether\r\n to use whole dollars or to include cents\r\n \r\n @author Jacob Ricketts\r\n @version 1.0\r\n @since 10/18/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.target=void useWholeDollarMode()
+comment2.text=\r\n useWholeDollarMode asks the user for the starting balance, the interest, and the number of months to\r\n process.  A BankAccount object is created with balance and interest rates as args.\r\n A loop runs based on number of months to process.  For each month deposits, withdraws,\r\n and interest rate is calculated.  After the loop processes, ending balance, total deposits,\r\n total withdraws, and total interest is displayed.  \r\n
+comment3.target=void useCurrencyMode()
+comment3.text=\r\n useCurrencyMode asks the user for the starting balance, the interest, and the number of months to\r\n process.  A BankAccount object is created with balance and interest rates as args.\r\n A loop runs based on number of months to process.  For each month deposits, withdraws,\r\n and interest rate is calculated.  After the loop processes, ending balance, total deposits,\r\n total withdraws, and total interest is displayed.  \r\n
+numComments=4

@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sun Oct 18 21:42:45 PDT 2026
+comment0.target=BankAccount
+comment0.text=\r\n Class for a bank account, to handle deposit, withdrawl, interest, and support for \r\n whole number or going to the decimals.\r\n\r\n @author Jacob Ricketts\r\n @version 1.0\r\n @since 10/18/2026\r\n
+comment1.target=BankAccount()
+comment1.text=\r\n Creates a bank account with monthly interest of 4.4% annually\r\n
+comment10.target=double getDeposit()
+comment10.text=\r\n Returns the deposit\r\n \r\n @return the total deposited into the account\r\n
+comment11.target=double getWithdraw()
+comment11.text=\r\n Returns the withdrawl\r\n \r\n @return the total withdrawn by the account\r\n
+comment12.target=double getInterest()
+comment12.text=\r\n Returns the interset\r\n \r\n @return the total interest gained\r\n
+comment2.params=inBalance intRate
+comment2.target=BankAccount(int, double)
+comment2.text=\r\n Creates a bank account using whole-dollars for a balance and has an annual interest rate.\r\n \r\n @param inBalance the starting account balance in whole dollars\r\n @param intRate the annual interest rate\r\n
+comment3.params=inBalance intRate
+comment3.target=BankAccount(double, double)
+comment3.text=\r\n Creates a bank account with support for cents and has an annual interest rate.\r\n \r\n @param inBalance the starting account balance with support for cents\r\n @param intRate the annual interest rate\r\n
+comment4.params=add
+comment4.target=void makeDeposit(double)
+comment4.text=\r\n Adds money to the account as a double and tracks the amount deposited\r\n @param add the amount of money to be deposited and added to the balance\r\n
+comment5.params=add
+comment5.target=void makeDeposit(int)
+comment5.text=\r\n Adds money to the account in whole dollars and tracks the amount deposited.\r\n @param add the amount of money to be added in whole dollars and added to the balance.\r\n
+comment6.params=sub
+comment6.target=void makeWithdraw(double)
+comment6.text=\r\n Withdraws money from the account, subtracts from the balance and tracks the total amount withdrawn\r\n @param sub the amount of money to be withdrawn from the account balance\r\n
+comment7.params=sub
+comment7.target=void makeWithdraw(int)
+comment7.text=\r\n Withdraws money from the account in whole dollars, subtracts from the balance and tracks the total amount withdrawn\r\n @param sub the amount of money to be withdrawn from the account balance in whole dollars\r\n
+comment8.target=void calcInterest()
+comment8.text=\r\n Calculates the interest to be added to the account, adds it to the balance and tracks the total amount of interest added over time\r\n \r\n
+comment9.target=double getBalance()
+comment9.text=\r\n Returns the balance\r\n \r\n @return the total balance\r\n
+numComments=13
